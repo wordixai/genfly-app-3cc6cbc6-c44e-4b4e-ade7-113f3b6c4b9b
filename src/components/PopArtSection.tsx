@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Star, Palette, TrendingUp } from 'lucide-react';
+import { Star, Palette, Trending } from 'lucide-react';
 
 const PopArtSection = () => {
   return (
