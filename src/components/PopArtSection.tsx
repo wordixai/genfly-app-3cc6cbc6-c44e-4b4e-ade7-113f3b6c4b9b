@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Star, Palette, Trending } from 'lucide-react';
+import { Star, Palette, TrendingUp } from 'lucide-react';
 
 const PopArtSection = () => {
   return (
@@ -43,7 +43,7 @@ const PopArtSection = () => {
 
               <div className="flex items-center space-x-4 group">
                 <div className="w-16 h-16 bg-pop-blue border-4 border-black rounded-xl flex items-center justify-center shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] group-hover:animate-pulse transition-all">
-                  <Trending className="h-8 w-8 text-white" />
+                  <TrendingUp className="h-8 w-8 text-white" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-black">潮流前沿</h3>
